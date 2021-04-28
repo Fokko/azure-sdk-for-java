@@ -1,0 +1,28 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: io.netty:netty-codec-http2
+    versions:
+    - 4.1.60.Final
+  - dependency-name: org.openjdk.jmh:jmh-generator-annprocess
+    versions:
+    - "1.26"
+    - "1.28"
+  - dependency-name: org.apache.logging.log4j:log4j-slf4j-impl
+    versions:
+    - 2.14.0
+  - dependency-name: org.junit.jupiter:junit-jupiter-engine
+    versions:
+    - 5.7.0
+  - dependency-name: com.squareup.okhttp3:okhttp
+    versions:
+    - 4.9.0
+  - dependency-name: org.codehaus.groovy:groovy-eclipse-compiler
+    versions:
+    - 3.6.0-03
