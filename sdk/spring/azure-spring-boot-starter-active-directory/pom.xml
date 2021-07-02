@@ -43,7 +43,7 @@
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-core</artifactId>
-      <version>5.2.0.RELEASE</version> <!-- {x-version-update;org.springframework.security:spring-security-core;external_dependency} -->
+      <version>5.2.11.RELEASE</version> <!-- {x-version-update;org.springframework.security:spring-security-core;external_dependency} -->
     </dependency>
     <dependency>
       <groupId>org.springframework.security</groupId>
